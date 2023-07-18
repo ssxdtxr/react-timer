@@ -11,7 +11,7 @@ function App() {
             const seconds = parseInt(inputSeconds, 10);
 
             if (isNaN(seconds)) {
-                alert('Please enter a valid number of seconds.');
+                alert('Введите число секунд!');
                 return;
             }
 
